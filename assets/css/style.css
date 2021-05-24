@@ -1,1 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto+Slab:wght@400;500&display=swap');
+
+/* General Rules */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: "Roboto Slab", "Times New Roman" serif;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 500;
+}
+
+/* Header and Nav Bar */
+header {
+    background-color: #152a25;
+    padding: 1rem;
+}
+
+header > a {
+    color: #ffc702;
+    float: left;
+    font-size: 5rem;
+    margin-left: 1.75rem;
+}
+
+#menu {
+    float: right;
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+#menu li{
+    float: left;
+    list-style-type: none;
+    margin-right: 1.75rem;
+}
+
+#menu a{
+    text-decoration: none;
+    color: #ffc702;
+}
+
+#menu a:hover {
+    border-bottom: .1rem solid #ffc702;
+}
+
+#menu a:focus {
+    border-bottom: .1rem solid #ffc702;
+}
+
+.current-page {
+    border-bottom: .1rem solid #ffc702;
+}
