@@ -243,7 +243,7 @@ header > a {
     margin-left: 1.25rem;
 }
 
-/* subgrids */
+/* Formula One subgrid */
 
 .f1-inner-grid {
     display: grid;
@@ -306,6 +306,61 @@ header > a {
 
 .f1-rs-text {
     grid-area: f1-rs-text;
+    text-align: left;
+    align-self: center;
+}
+
+/* Indycar subgrid */
+
+.indy-inner-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+       "indy-header       indy-header"
+       "indy-500-wins-number   indy-500-wins-text"
+       "indy-rw-number    indy-rw-text"
+       "indy-pf-number    indy-pf-text"
+       ".                 .";
+}
+
+.indy-header {
+    grid-area: indy-header;
+    align-self: center;
+}
+
+.indy-500-wins-number {
+    grid-area: indy-500-wins-number;
+    text-align: right;
+    align-self: center;
+}
+
+.indy-500-wins-text {
+    grid-area: indy-500-wins-text;
+    text-align: left;
+    align-self: center;
+}
+
+.indy-rw-number {
+    grid-area: indy-rw-number;
+    text-align: right;
+    align-self: center;
+}
+
+.indy-rw-text {
+    grid-area: indy-rw-text;
+    text-align: left;
+    align-self: center;
+}
+
+.indy-pf-number {
+    grid-area: indy-pf-number;
+    text-align: right;
+    align-self: center;
+}
+
+.indy-pf-text {
+    grid-area: indy-pf-text;
     text-align: left;
     align-self: center;
 }
