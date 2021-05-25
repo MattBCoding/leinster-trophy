@@ -61,6 +61,8 @@ header > a {
     border-bottom: .1rem solid #ffc702;
 }
 
+/* Hero Image and text area */
+
 #hero-outer {
     height: 800px;
     width: 100%;
@@ -89,11 +91,13 @@ header > a {
 #hero-text {
     background-color: #ffc702;
     position: absolute;
-    margin-left: 1.75rem;
+    margin-left: 2.75rem;
     text-align: center;
     border-radius: 20px;
     bottom: 60px;
 }
+
+/* next race section */
 
 .next-race {
     background-color: #152a25;
@@ -158,11 +162,150 @@ header > a {
 
 #entry-button {
     margin-right: 40px;
-
-    
-
 }
 
 #tickets-button {
     margin-left: 40px;
+}
+
+/* Statistic cards area */
+
+.statistics {
+    margin: 2.75rem 2.75rem 0;
+}
+
+.statistics > p {
+    margin-top: 10px;
+}
+
+/* Setup of display grid */
+
+.statistics-grid {
+    font-family: "Racing Sans One", sans-serif;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "f1     ."
+        "f1     indy"
+        "f1     indy"
+        ".      indy"
+        "lemans ."
+        "lemans drivers"
+        "lemans drivers"
+        ".      drivers";
+}
+
+.grid-f1 {
+    grid-area: f1;
+}
+
+.grid-indy {
+    grid-area: indy;
+}
+
+.grid-lemans {
+    grid-area: lemans;
+}
+
+.grid-drivers {
+    grid-area: drivers;
+}
+
+/* interior of grid styling */
+
+.card {
+    background-color: #ffc702;
+    padding-top: 10px;
+}
+
+.card-container {
+    background-color:#f5f5f5;
+    text-align: center;
+    height: 450px;
+}
+
+.card-numbers {
+    font-size: 3rem;
+}
+
+.card-container > h2 {
+    font-size: 3rem;
+}
+
+.card-container > p {
+    font-size: 3rem;
+}
+
+.card-text {
+    font-size: 1.25rem;
+    margin-left: 1.25rem;
+}
+
+/* subgrids */
+
+.f1-inner-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+       "f1-header       f1-header"
+       "f1-wdc-number   f1-wdc-text"
+       "f1-rw-number    f1-rw-text"
+       "f1-pf-number    f1-pf-text"
+       "f1-rs-number    f1-rs-text";
+}
+
+.f1-header {
+    grid-area: f1-header;
+    align-self: center;
+}
+
+.f1-wdc-number {
+    grid-area: f1-wdc-number;
+    text-align: right;
+    align-self: center;
+}
+
+.f1-wdc-text {
+    grid-area: f1-wdc-text;
+    text-align: left;
+    align-self: center;
+}
+
+.f1-rw-number {
+    grid-area: f1-rw-number;
+    text-align: right;
+    align-self: center;
+}
+
+.f1-rw-text {
+    grid-area: f1-rw-text;
+    text-align: left;
+    align-self: center;
+}
+
+.f1-pf-number {
+    grid-area: f1-pf-number;
+    text-align: right;
+    align-self: center;
+}
+
+.f1-pf-text {
+    grid-area: f1-pf-text;
+    text-align: left;
+    align-self: center;
+}
+
+.f1-rs-number {
+    grid-area: f1-rs-number;
+    text-align: right;
+    align-self: center;
+}
+
+.f1-rs-text {
+    grid-area: f1-rs-text;
+    text-align: left;
+    align-self: center;
 }
