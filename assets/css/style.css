@@ -103,6 +103,7 @@ header > a {
     flex-flow: row-reverse wrap-reverse;
     justify-content: center;
     align-items: center;
+    padding: 15px
 }
 
 .next-race-image > img{
@@ -116,30 +117,52 @@ header > a {
 
 .next-race-text {
     height: 340px;
+    width: 48%;
 }
 
 .next-race-text > h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-align: center;
 }
 .next-race-text > h3 {
-    font-size: 1.75rem;
+    font-size: 2rem;
     text-align: center;
 }
 
 .next-race-text > p {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     text-align: center;
     padding: 3rem;
 }
 
+.buttons {
+    text-align: center;
+}
+
+.buttons > a {
+    display: inline-block;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, .25),
+    inset -4px 4px 4px 0px rgba(0, 0, 0, .25),
+    inset 4px 4px 4px 0px rgba(255, 255, 255, .25);
+}
 .next-race-button {
     background-color: #ffc702;
     text-decoration: none;
-    padding: 15px;
-    margin: 25px;
     color: black;
     font-size: 1.25rem;
     border-radius: 5px;
+    height: 85px;
+    width: 225px;
+    line-height: 85px;
+}
 
+#entry-button {
+    margin-right: 40px;
+
+    
+
+}
+
+#tickets-button {
+    margin-left: 40px;
 }
