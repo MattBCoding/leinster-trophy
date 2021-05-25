@@ -364,3 +364,58 @@ header > a {
     text-align: left;
     align-self: center;
 }
+
+/* Lemans 24hr subgrid */
+
+.lemans-inner-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+       "lemans-header       lemans-header"
+       "lemans-ow-number    lemans-ow-text"
+       "lemans-op-number    lemans-op-text"
+       "lemans-cw-number    lemans-cw-text"
+       ".                   .";
+}
+
+.lemans-header {
+    grid-area: lemans-header;
+    align-self: center;
+}
+
+.lemans-ow-number {
+    grid-area: lemans-ow-number;
+    text-align: right;
+    align-self: center;
+}
+
+.lemans-ow-text {
+    grid-area: lemans-ow-text;
+    text-align: left;
+    align-self: center;
+}
+
+.lemans-op-number {
+    grid-area: lemans-op-number;
+    text-align: right;
+    align-self: center;
+}
+
+.lemans-op-text {
+    grid-area: lemans-op-text;
+    text-align: left;
+    align-self: center;
+}
+
+.lemans-cw-number {
+    grid-area: lemans-cw-number;
+    text-align: right;
+    align-self: center;
+}
+
+.lemans-cw-text {
+    grid-area: lemans-cw-text;
+    text-align: left;
+    align-self: center;
+}
