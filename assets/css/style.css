@@ -174,6 +174,10 @@ header > a {
     margin: 2.75rem 2.75rem 0;
 }
 
+.statistics > div:first-of-type {
+    background-color: #ffc702;
+}
+
 .statistics > p {
     margin-top: 10px;
 }
@@ -184,6 +188,7 @@ header > a {
     font-family: "Racing Sans One", sans-serif;
     margin-top: 25px;
     display: grid;
+    column-gap: 25px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
@@ -224,6 +229,8 @@ header > a {
     background-color:#f5f5f5;
     text-align: center;
     height: 450px;
+    box-shadow: 4px 4px 4px 0 rgba(0,0,0,0.25);
+    border-radius: 0 0 5px 5px;
 }
 
 .card-numbers {
@@ -235,12 +242,16 @@ header > a {
 }
 
 .card-container > p {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .card-text {
     font-size: 1.25rem;
     margin-left: 1.25rem;
+}
+
+.grid-drivers h2 {
+    line-height: 120px;
 }
 
 /* Formula One subgrid */
