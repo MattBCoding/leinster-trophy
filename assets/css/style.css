@@ -168,17 +168,17 @@ header > a {
     margin-left: 40px;
 }
 
-/* Statistic cards area */
+/* main info area */
 
-.statistics {
+.main {
     margin: 2.75rem 2.75rem 0;
 }
 
-.statistics > div:first-of-type {
+.main > div:first-of-type {
     background-color: #ffc702;
 }
 
-.statistics > p {
+.main > p {
     margin-top: 10px;
 }
 
@@ -527,4 +527,47 @@ header > a {
 
 .social-icons > a:hover{
     border-bottom: .1rem solid #ffc702;
+}
+
+/* ============================
+==Trophy.html specific styling==
+=============================== */
+
+
+
+/* engraving errors table styling */
+.trophy-history >p:first-of-type {
+    margin-top: 10px;
+}
+
+.float-left {
+    float: left;
+    margin: 10px 15px 10px 0;
+}
+
+.trophy-errors {
+    min-width: 300px;
+    border: 2px solid #000;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.row-one {
+    background-color: #152a25;
+    color: #ffc702;
+    font-size: 1.5rem;
+}
+
+.row-two {
+    background-color: #ffc702;
+}
+
+.trophy-errors > tbody {
+    border: inherit;
+    padding: 15px;
+}
+
+.trophy-errors th,
+.trophy-errors td {
+    padding: 0.25rem;
 }
