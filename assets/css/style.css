@@ -532,18 +532,40 @@ header > a {
 /* ============================
 ==Trophy.html specific styling==
 =============================== */
-
-
-
-/* engraving errors table styling */
-.trophy-history >p:first-of-type {
-    margin-top: 10px;
-}
-
 .float-left {
+    
     float: left;
     margin: 10px 15px 10px 0;
 }
+
+.float-right {
+    
+    float: right;
+    margin: 10px 0 10px 15px;
+}
+
+.float-left > img,
+.float-right > img {
+    min-width: 300px;
+    max-width: 375px;
+    width: 450px;
+    height: auto;
+}
+
+figcaption {
+    /* display: inline-block; */
+    text-align: center;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+
+/* engraving errors table styling */
+.trophy-history >p {
+    margin-top: 10px;
+}
+
+
 
 .trophy-errors {
     min-width: 300px;
