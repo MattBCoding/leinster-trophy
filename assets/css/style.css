@@ -445,29 +445,45 @@ header > a {
 }
 
 .footer-top {
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; */
     background-color: #ffc702;
-    height: 100px;
+    min-height: 100px;
+    max-height: 300px;
     margin-top: 25px;
     font-size: 1.25rem;
+    padding: 0 1.75rem;
+    
 }
 
-.footer-top > h2 {
-    text-align: left;
-    margin-left: 1.75rem;
-    float: left;
-    width: 22%;
+.newsletter-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    /* used to center elements vertically within .footer-top
+        needs a better solution */
+    padding: 20px 0 20px;
+}
+.newsletter-container > h2 {
+    text-align: center;
+    max-height: 100px;
+}
+
+.email-form {
+    flex-grow: 1;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 #email {
-    width: 400px;
-    height: 40px;
-    background-color: #f5f5f5;
-    border-radius: 5px;
-    font-size: 1.5rem;
+    height: 50px;
+    width: 80%;
+    min-width: 300px;
+    max-width: 600px;
+    background-color: #ffefb7;
+    border-radius: 8px;
+    font-size: 1.25rem;
     padding-left: 30px;
 }
 
@@ -480,12 +496,9 @@ header > a {
     height: 60px;
     width: 225px;
     line-height: 60px;
-    margin-left: 50px;
-    margin-right: 1.75rem;
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, .25),
     inset -4px 4px 4px 0px rgba(0, 0, 0, .25),
     inset 4px 4px 4px 0px rgba(255, 255, 255, .25);
-    float: right;
 }
 
 .sign-up-button:hover{
@@ -493,7 +506,8 @@ header > a {
 }
 
 .footer-bottom {
-    height: 100px;
+    min-height: 100px;
+    max-height: 300px;
     background-color: #152a25;
 }
 .social-channels {
@@ -512,9 +526,5 @@ header > a {
 }
 
 .social-icons > a:hover{
-    border-bottom: .1rem solid #ffc702;
-}
-
-.social-icons > a:focus{
     border-bottom: .1rem solid #ffc702;
 }
