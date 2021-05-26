@@ -63,7 +63,7 @@ header > a {
 
 /* Hero Image and text area */
 
-#hero-outer {
+.hero-outer {
     height: 800px;
     width: 100%;
     position: relative;
@@ -76,19 +76,19 @@ header > a {
     height: 100%;
 }
 
-#hero-text > h1 {
+.hero-text > h1 {
     font-family: "Racing Sans One", sans-serif;
     font-size: 4rem;
     padding: 2rem 2rem 0;
     letter-spacing: 2pt;
 }
 
-#hero-text > h2 {
+.hero-text > h2 {
     font-size: 2.5rem;
     padding-bottom: 2rem;
 }
 
-#hero-text {
+.hero-text {
     background-color: #ffc702;
     position: absolute;
     margin-left: 2.75rem;
