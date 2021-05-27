@@ -174,7 +174,7 @@ header > a {
     margin: 2.75rem 2.75rem 0;
 }
 
-.main > div:first-of-type {
+#finish-line {
     background-color: #ffc702;
 }
 
@@ -578,13 +578,13 @@ figcaption {
     border-spacing: 0;
 }
 
-.row-one {
+.table-row-title {
     background-color: #152a25;
     color: #ffc702;
     font-size: 1.5rem;
 }
 
-.row-two {
+.table-row-title {
     background-color: #ffc702;
 }
 
