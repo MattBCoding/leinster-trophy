@@ -569,8 +569,6 @@ figcaption {
     margin-top: 10px;
 }
 
-
-
 .trophy-errors {
     min-width: 300px;
     border: 2px solid #000;
@@ -584,7 +582,7 @@ figcaption {
     font-size: 1.5rem;
 }
 
-.table-row-title {
+.table-row-header {
     background-color: #ffc702;
 }
 
@@ -597,6 +595,59 @@ figcaption {
 .trophy-errors td {
     padding: 0.25rem;
 }
+
+/*=============================
+==winners.html specific styling==
+=============================== */
+#winners-table-container {
+    width: 890px;
+    margin:0 auto 25px;
+}
+
+#winners-table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding-bottom: 25px;
+    width: auto;
+}
+
+.winners-table-body>tr:nth-child(even) {
+    background-color: #ffefb7;
+}
+
+.first-of-decade {
+    border-top: 2px solid black;
+}
+
+#download-link {
+    width: 100%;
+}
+
+#download-link >a {
+    text-decoration: none;
+}
+
+.download-button {
+    background-color: #152a25;
+    /* text-decoration: none; */
+    color: #ffc702;
+    font-size: 1.25rem;
+    text-align: center;
+    border-radius: 5px;
+    height: 60px;
+    width: 225px;
+    line-height: 60px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, .25),
+    inset -4px 4px 4px 0px rgba(0, 0, 0, .25),
+    inset 4px 4px 4px 0px rgba(255, 255, 255, .25);
+    margin: 0 auto;
+    display: block;
+}
+
+.download-button:hover{
+    text-decoration: underline;
+}
+
 /* ============================
 ==gallery.html specific styling==
 =============================== */

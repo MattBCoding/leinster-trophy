@@ -44,8 +44,8 @@
     <section class="main">
         <h2>Winners and podium finishers</h2>
 
-        <div>
-            <table>
+        <div id="winners-table-container">
+            <table id="winners-table">
                 <thead>
                     <tr class="table-row-header">
                         <th>Year</th>
@@ -55,8 +55,8 @@
                         <th>3rd Place</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
+                <tbody class="winners-table-body">
+                    <tr class="first-of-decade">
                         <td>1934</td>
                         <td>Frances "Fay" Taylour</td>
                         <td>Adler Trumpf 1645</td>
@@ -98,14 +98,14 @@
                         <td>A. Welch</td>
                         <td>R.B.S. Le Fanu</td>
                     </tr>
-                    <tr>
+                    <tr class="first-of-decade">
                         <td>1948</td>
                         <td>Billy Leeper</td>
                         <td>Singer 972</td>
                         <td>George Mangan</td>
                         <td>T. Alf Carroll</td>
                     </tr>
-                    <tr>	
+                    <tr class="first-of-decade">	
                         <td>1950</td>
                         <td>M. Pearse Cahill</td>
                         <td>MG Iona Special 1287</td>
@@ -175,7 +175,7 @@
                         <td>Sammy Moore</td>
                         <td>Paddy B. Hopkirk</td>
                     </tr>
-                    <tr>
+                    <tr class="first-of-decade">
                         <td>1960</td>
                         <td>Gerry Ashmore</td>
                         <td>Cooper Climax F2 1475</td>
@@ -238,7 +238,7 @@
                         <td>Tommy Reid</td>
                         <td>John Watson</td>
                     </tr>
-                    <tr>
+                    <tr class="first-of-decade">
                         <td>1970</td>
                         <td>Brian Nelson</td>
                         <td>Crosslé 18F Ford-FVA 1.6L</td>
@@ -308,7 +308,7 @@
                         <td>Stefan Johannson</td>
                         <td>Eddie Jordan</td>
                     </tr>
-                    <tr>
+                    <tr class="first-of-decade">
                         <td>1980</td>
                         <td>Trevor Templeton</td>
                         <td>Ralt RT1/78 Toyota 2.0L</td>
@@ -378,7 +378,7 @@
                         <td>Diogo Castro Santos</td>
                         <td>Hideki Noda</td>
                     </tr>
-                    <tr>
+                    <tr class="first-of-decade">
                         <td>1990</td>
                         <td>Vincenzo Sospiri</td>
                         <td>Reynard FVL Mk.1 Opel 2.0L</td>
@@ -448,7 +448,7 @@
                         <td>Darren Malkin</td>
                         <td>Takuma Sato</td>
                     </tr>
-                    <tr>
+                    <tr class="first-of-decade">
                         <td>2000</td>
                         <td>Paul Dagg</td>
                         <td>Reynard FVL Mk.2 Opel 2.0L</td>
@@ -518,7 +518,7 @@
                         <td>Brian Kelly</td>
                         <td>David O'Brien</td>
                     </tr>
-                    <tr>
+                    <tr class="first-of-decade">
                         <td>2010</td>
                         <td>Daniel Polley</td>
                         <td>Sheane VW</td>
@@ -588,7 +588,7 @@
                         <td>Stephen Daly</td>
                         <td>Paul Dagg</td>
                     </tr>
-                    <tr>
+                    <tr class="first-of-decade">
                         <td>2020</td>
                         <td>Paul O'Connell</td>
                         <td>Dallara F3 2.0L</td>
@@ -598,6 +598,13 @@
                 </tbody>
             </table>
         </div>
+        <span id="download-link">
+        <a href="/assets/documents/Leinster-Trophy-Full-Winners-List.pdf" type="text/pdf" target="_blank">
+            <button class="download-button" type="button" name="full-winners-list-file">
+                    Download full list
+            </button>
+        </a>
+        </span>
 
     </section>
 
