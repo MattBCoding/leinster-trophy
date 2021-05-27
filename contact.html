@@ -45,26 +45,23 @@
     <section class="main">
         <h2>Contact Us</h2>
         <form method="POST" action="https://formdump.codeinstitute.net/" class="contact-form">
-            <span class="contact-form-container">
+            
             <label for="fname">First Name</label>
-            <input id="fname" name="first-name" type="text" required class="text-input" placeholder="John">
-            </span>
-            <span class="contact-form-container">
+            <input id="fname" name="first-name" type="text" required class="text-input" placeholder="John" maxlength="70">
+            
             <label for="lname">Last Name</label>
-            <input id="lname" name="last-name" type="text" required class="text-input" placeholder="Doe">
-            </span>
-            <span class="contact-form-container">
+            <input id="lname" name="last-name" type="text" required class="text-input" placeholder="Doe" maxlength="70">
+            
             <label for="email">Email Address</label>
-            <input type="email" id="email-address" name="email-address" required class="text-input" placeholder="johndoe@email.com">
-            </span>
-            <span class="contact-form-container">
+            <input type="email" id="email-address" name="email-address" required class="text-input" placeholder="johndoe@email.com" maxlength="100">
+            
             <label for="subject">Subject</label>
-            <input id="subject" name="subject" type="text" required class="text-input" placeholder="What are you getting in touch about?">
-            </span>
-            <span class="contact-form-container">
+            <input id="subject" name="subject" type="text" required class="text-input" placeholder="What are you getting in touch about?" maxlength="100">
+            
             <label for="message">Message</label>
-            <input id="message" name="message" type="text" required class="text-input" placeholder="Enter your message here">
-            </span>
+            <textarea id="message" name="message" type="text" required class="text-input" placeholder="Enter your message here">
+            </textarea>
+            
             <input class="send-button" type="submit" value="Send">
         </form>
     </section>

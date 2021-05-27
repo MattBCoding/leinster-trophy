@@ -615,6 +615,7 @@ figcaption {
 }
 
 .text-input {
+    box-sizing: border-box;
     background-color: #ffefb7;
     width: 100%;
     height: 50px;
@@ -622,8 +623,14 @@ figcaption {
     border: 1px solid #152a25;
     border-radius: 5px;
     padding-left: 30px;
-    font-size: 1.25rem;
-    
+    font-size: 1.25rem;    
+}
+form textarea {
+    width: 100%;
+    max-width: 800px;
+    min-height: 50px;
+    max-height: 500px;
+    height: 100%;
 }
 
 .text-input:hover {
