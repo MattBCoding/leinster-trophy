@@ -42,24 +42,29 @@
     </section>
 
     <!-- contact form -->
-    <section class="contact-form-section">
+    <section class="main">
+        <h2>Contact Us</h2>
         <form method="POST" action="https://formdump.codeinstitute.net/" class="contact-form">
-            <h2>Contact Us</i></h2>
+            <span class="contact-form-container">
             <label for="fname">First Name</label>
-            <input id="fname" name="first-name" type="text" required class="text-input">
-            
+            <input id="fname" name="first-name" type="text" required class="text-input" placeholder="John">
+            </span>
+            <span class="contact-form-container">
             <label for="lname">Last Name</label>
-            <input id="lname" name="last-name" type="text" required class="text-input">
-            
+            <input id="lname" name="last-name" type="text" required class="text-input" placeholder="Doe">
+            </span>
+            <span class="contact-form-container">
             <label for="email">Email Address</label>
-            <input type="email" id="email-address" name="email-address" required class="text-input">
-
+            <input type="email" id="email-address" name="email-address" required class="text-input" placeholder="johndoe@email.com">
+            </span>
+            <span class="contact-form-container">
             <label for="subject">Subject</label>
-            <input id="subject" name="subject" type="text" required class="text-input">
-            
+            <input id="subject" name="subject" type="text" required class="text-input" placeholder="What are you getting in touch about?">
+            </span>
+            <span class="contact-form-container">
             <label for="message">Message</label>
-            <input id="message" name="message" type="text" required class="text-input">
-            
+            <input id="message" name="message" type="text" required class="text-input" placeholder="Enter your message here">
+            </span>
             <input class="send-button" type="submit" value="Send">
         </form>
     </section>
