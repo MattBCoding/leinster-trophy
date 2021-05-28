@@ -110,19 +110,30 @@ header > a {
     padding: 15px
 }
 
+.next-race-text {
+    /* height: 340px; */
+    /* width: 48%; */
+    float: left;
+    margin: 1rem; 
+}
+
+.next-race-image {
+    float: right;
+    height: 360px;
+    align-content: center;
+    vertical-align: middle;
+    margin: 1rem;
+}
+
 .next-race-image > img{
-    height: 340px;
+    height:100%;
     width: auto;
-    vertical-align: center;
-    padding: 1.75rem;
+    max-width: 100%;
     object-fit: contain;
     
 }
 
-.next-race-text {
-    height: 340px;
-    width: 48%;
-}
+
 
 .next-race-text > h2 {
     font-size: 3rem;
@@ -158,15 +169,16 @@ header > a {
     height: 85px;
     width: 225px;
     line-height: 85px;
+    margin: 25px;
 }
-
+/* 
 #entry-button {
     margin-right: 40px;
 }
 
 #tickets-button {
     margin-left: 40px;
-}
+} */
 
 /* main info area */
 
