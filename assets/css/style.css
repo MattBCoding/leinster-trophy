@@ -643,7 +643,7 @@ figcaption {
 ==winners.html specific styling==
 =============================== */
 #winners-table-container {
-    width: 890px;
+    max-width: 890px;
     margin:0 auto 25px;
 }
 
@@ -799,6 +799,15 @@ form textarea {
 == Start of media queries section ==
 ===================================*/
 
-/* @media screen and (max-width: 900px ) {
-    
-} */
+@media screen and (max-width: 940px ) {
+    th,
+    td {
+        display:block;
+        width: 100%;
+    }
+    th:first-child,
+    td:first-child {
+        font-weight: bold;
+        text-align: center;
+    }
+}
