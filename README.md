@@ -57,3 +57,109 @@ We continually tweak and adjust this template to help give you the best experien
 ---
 
 Happy coding!
+
+
+#README START
+##Introduction
+Provide a summary overview of the project. The sales pitch. What it hopes to accomplish, who it is intended to target and how it will be useful to the target audience.
+
+#UX
+##Leinster Motor Club:
+The trophy is the crown jewel of the leinster motor club, who currently have a website in development. The leinster trophy race needs a site of its own to promote it in its own right. What it needs to include
+what they need to get out of it
+
+#User stories
+ *As a user I want to easily find information about the race
+ *As a user I want to easily find information about past winners of the race
+ *As a user I want to easily find out about the history of the trophy
+ *As the organisation we want to promote the trophy and increase its prestige
+ *As the organisation we want to capture a larger social media following
+ *As the organisation we want to be able to market directly to interested parties in a cost effective manner
+ 
+#Opportunities arising from user stories
+Insert oppotunities table, 
+opportunities/Importance/Viability/Feasibility
+
+#Wireframe mockups
+Include screen shots from balsamic for the wireframe mockups
+one for each page - include differences between mobile, tablet and desktop views.
+
+
+##Features
+In this section go over the different parts of the project, and describe each in a sentance or so. Explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+###Existing Features
+*Navigation Bar
+  *Details of the nav bar
+  *include image
+*Landing page image - hero image
+  *Details of the section
+  *include image
+*Next race section
+  *details of the section
+  *include image
+*statistics section
+  *details of the section
+  *include image
+*navigation element - shortcut
+  *details of the shortcut
+  *image of the shortcut
+*Footer section
+  *footer upper details - newsletter signup
+  *include image
+  *footer lower details
+  *include image
+*Trophy Page
+  *History of the Trophy section
+  *include image
+*Winners page
+  *Winners and Podium finishers data table
+  *Download link to full data file
+  *inlcude images
+*Gallery page
+  *Video gallery - autoplay footage from prior year - youtube embedded - muted - autoplay
+  *Image gallery
+  *include images
+*Contact Page
+  *Contact form to receive enquiries
+  *include image
+
+##Feature left to implement
+  *other feature ideas
+  *why they were not included
+  
+##Testing
+Here you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your projects features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+If this section grows too long, you may want to split it off into a seperate file and link to it from here.
+
+##Validator Testing
+ *HTML
+   *No errors were returned when passing through the official W3C Validator (link to validation results)
+ *CSS
+   *No errors were returned when passing through the official (Jigsaw) Validator (link to validation results)
+
+##Unfixed bugs
+you will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+
+##Deployment
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
+*The site was deployed to GitHub pages. the steps to deploy are as follows:
+  *in the GitHub repository, navigate to the settings tab
+  *From the source section drop-down menu, select the master branch
+  *One the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here - (include link to live site)
+
+##Credits
+in this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
+
+You can break the credits section up into Content and Media, depending on what you have included in your project.
+
+##Content
+  *The text for the home page was taken from
+  *Instruction on how to implement form validation on the sign up page was taken from (link to specific youtube tutorial)
+  *the icons in the footer were taken from font awesome(link to font awesome)
+  
+##Media
+  *The photos used on the homepage and sign up page are from this open source site
+  *the images used for the gallery page were taken from this other open source site
