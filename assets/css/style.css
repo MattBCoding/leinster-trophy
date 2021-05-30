@@ -64,7 +64,6 @@ header > a {
 }
 
 /* Hero Image and text area */
-
 .hero-outer {
     height: 800px;
     width: 100%;
@@ -100,7 +99,6 @@ header > a {
 }
 
 /* next race section */
-
 .next-race {
     background-color: #152a25;
     color: #ffc702;
@@ -136,6 +134,7 @@ header > a {
     font-size: 3rem;
     text-align: center;
 }
+
 .next-race-text > h3 {
     font-size: 2rem;
     text-align: center;
@@ -157,6 +156,7 @@ header > a {
     inset -4px 4px 4px 0px rgba(0, 0, 0, .25),
     inset 4px 4px 4px 0px rgba(255, 255, 255, .25);
 }
+
 .next-race-button {
     background-color: #ffc702;
     text-decoration: none;
@@ -170,7 +170,6 @@ header > a {
 }
 
 /* main info area */
-
 .main {
     margin: 2.75rem 2.75rem 0;
 }
@@ -184,7 +183,6 @@ header > a {
 }
 
 /* Setup of display grid */
-
 .statistics-grid {
     font-family: "Racing Sans One", sans-serif;
     margin-top: 25px;
@@ -220,17 +218,14 @@ header > a {
 }
 
 /* interior of grid styling */
-
 .card {
-    /* background-color: #ffc702; */
     padding-top: 10px;
-    background: linear-gradient(#ffc702 20%, #f5f5f5 20% 100%)
+    background-image: linear-gradient(#ffc702 20%, #f5f5f5 20% 100%);
 }
 
 .card-container {
     background-color:#f5f5f5;
     text-align: center;
-    /* height: 450px; */
     box-shadow: 4px 4px 4px 0 rgba(0,0,0,0.25);
     border-radius: 0 0 5px 5px;
     width: 95%;
@@ -255,12 +250,7 @@ header > a {
     margin-left: 1.25rem;
 }
 
-/* .grid-drivers h2 {
-    line-height: 120px;
-} */
-
 /* Formula One subgrid */
-
 .f1-inner-grid {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -327,7 +317,6 @@ header > a {
 }
 
 /* Indycar subgrid */
-
 .indy-inner-grid {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -382,7 +371,6 @@ header > a {
 }
 
 /* Lemans 24hr subgrid */
-
 .lemans-inner-grid {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -437,7 +425,6 @@ header > a {
 }
 
 /* Legendary Drivers subgrid */
-
 .drivers-inner-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -487,13 +474,7 @@ header > a {
     align-self: center;
 }
 
-/* .driver-one-sub,
-.driver-two-sub,
-.driver-three-sub {
-    line-height: 20px;
-} */
 /* footer element styling */
-
 .bookmark {
     font-size: 2rem;
     width: 100%;
@@ -528,10 +509,7 @@ header > a {
     text-align: center;
 }
 .newsletter-container > h2 {
-    
-    /* max-height: 100px; */
     flex-shrink: 3;
-    /* flex-grow: 1; */
     padding: 10px;
 }
 
@@ -540,7 +518,6 @@ header > a {
     flex-shrink: 0;
     font-size: 1.5rem;
     padding: 10px;
-    /* text-align: center; */
     flex-wrap: nowrap;
 }
 
@@ -578,66 +555,12 @@ header > a {
     text-decoration: underline;
 }
 
-/* .newsletter-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    /* used to center elements vertically within .footer-top
-        needs a better solution */
-   /* padding: 20px 0 20px;
-}
-.newsletter-container > h2 {
-    text-align: center;
-    max-height: 100px;
-}
-
-.email-form {
-    flex-grow: 1;
-    font-size: 1.5rem;
-    text-align: center;
-}
-
-#email {
-    height: 50px;
-    width: 80%;
-    min-width: 300px;
-    max-width: 600px;
-    background-color: #ffefb7;
-    border-radius: 8px;
-    font-size: 1.25rem;
-    padding-left: 30px;
-}
-
-#email:hover {
-    background-color: #fff;
-}
-
-.sign-up-button {
-    background-color: #152a25;
-    text-decoration: none;
-    color: #ffc702;
-    font-size: 1.25rem;
-    border-radius: 5px;
-    height: 60px;
-    width: 225px;
-    line-height: 60px;
-    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, .25),
-    inset -4px 4px 4px 0px rgba(0, 0, 0, .25),
-    inset 4px 4px 4px 0px rgba(255, 255, 255, .25);
-}
-
-.sign-up-button:hover{
-    text-decoration: underline;
-} */
-
 .footer-bottom {
     min-height: 100px;
     max-height: 300px;
     background-color: #152a25;
 }
+
 .social-channels {
     display: flex;
 }
@@ -661,13 +584,11 @@ header > a {
 ==Trophy.html specific styling==
 =============================== */
 .float-left {
-    
     float: left;
     margin: 10px 15px 10px 0;
 }
 
 .float-right {
-    
     float: right;
     margin: 10px 0 10px 15px;
 }
@@ -681,12 +602,10 @@ header > a {
 }
 
 figcaption {
-    /* display: inline-block; */
     text-align: center;
     min-width: 300px;
     max-width: 400px;
 }
-
 
 /* engraving errors table styling */
 .trophy-history >p {
@@ -753,7 +672,6 @@ figcaption {
 
 .download-button {
     background-color: #152a25;
-    /* text-decoration: none; */
     color: #ffc702;
     font-size: 1.25rem;
     text-align: center;
@@ -778,6 +696,7 @@ figcaption {
 .main h3 {
     padding: 15px 0;
 }
+
 .youtube-container { 
     position: relative; 
     padding-bottom: 56.25%;
@@ -813,17 +732,14 @@ figcaption {
     width: 100%;
 }
 
-
 /* ============================
 ==contact.html specific styling==
 =============================== */
-
 .contact-form {
     margin: 25px auto 0;
     background-color: #f5f5f5;
     max-width: 800px;
     font-size: 1.25rem;
-    /* display: flex; */
 }
 
 .contact-form > label {
@@ -841,6 +757,7 @@ figcaption {
     padding-left: 30px;
     font-size: 1.25rem;    
 }
+
 form textarea {
     width: 100%;
     max-width: 800px;
