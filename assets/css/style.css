@@ -331,11 +331,11 @@ header > a {
     grid-template-columns: 1fr 2fr;
     grid-template-rows: auto;
     grid-template-areas: 
-       "indy-header       indy-header"
-       "indy-500-wins-number   indy-500-wins-text"
-       "indy-rw-number    indy-rw-text"
-       "indy-pf-number    indy-pf-text"
-       ".                 .";
+       "indy-header             indy-header"
+       "indy-500-wins-number    indy-500-wins-text"
+       "indy-rw-number          indy-rw-text"
+       "indy-pf-number          indy-pf-text"
+       ".                       .";
 }
 
 .indy-header {
