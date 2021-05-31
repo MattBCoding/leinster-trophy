@@ -713,6 +713,12 @@ figcaption {
     padding: 15px 0;
 }
 
+.video {
+    width: 80%;
+    margin: 0 auto;
+}
+/* responsive youtube code taken from article on 
+avexdesigns.com/blog/responsive-youtube-embed */
 .youtube-container { 
     position: relative; 
     padding-bottom: 56.25%;
