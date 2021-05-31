@@ -176,10 +176,14 @@ header > a {
 
 #finish-line {
     background-color: #ffc702;
+    height: 2rem;
+    width: 100%;
+    padding: 1rem 0;
 }
 
 .main > p {
     margin-top: 10px;
+    font-size: 1.25rem;
 }
 
 /* Setup of display grid */
@@ -236,6 +240,7 @@ header > a {
     width: 95%;
     margin: 0 auto;
     overflow: hidden;
+    min-height: 350px;
 }
 
 .card-numbers {
@@ -507,22 +512,22 @@ header > a {
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    align-items: center;
+    align-items: baseline;
     /* used to center elements vertically within .footer-top
         needs a better solution */
-    padding: 20px;
+    padding: 20px 0;
     text-align: center;
 }
 .newsletter-container > h2 {
     flex-shrink: 3;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .email-form {
     flex-grow: 2;
     flex-shrink: 0;
     font-size: 1.5rem;
-    padding: 10px;
+    padding: 0 10px;
     flex-wrap: nowrap;
 }
 
@@ -530,7 +535,7 @@ header > a {
     height: 50px;
     width: 80%;
     min-width: 300px;
-    max-width: 600px;
+    max-width: 800px;
     background-color: #ffefb7;
     border-radius: 8px;
     font-size: 1.25rem;
@@ -571,10 +576,11 @@ header > a {
 }
 
 .social-icons {
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-align: center;
     list-style-type: none;
     width: 25%;
+    line-height: 100px;
 }
 
 .social-icons > a{
