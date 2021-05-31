@@ -826,16 +826,16 @@ form textarea {
 /* =================================
 == Start of media queries section ==
 ===================================*/
-
-@media screen and (max-width: 940px ) {
-    th,
-    td {
-        display:block;
-        width: 100%;
+@media screen and (max-width: 1200px) {
+    .newsletter-container {
+        display: block;
     }
-    th:first-child,
-    td:first-child {
-        font-weight: bold;
-        text-align: center;
+    .sign-up-button {
+        display: block;
+        margin: 10px auto 0;
+    }
+    .newsletter-container > h2,
+    .email-form {
+        padding-bottom: 10px;
     }
 }
