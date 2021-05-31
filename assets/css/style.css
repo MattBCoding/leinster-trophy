@@ -667,7 +667,7 @@ figcaption {
     border: 2px solid black;
     border-collapse: collapse;
     padding-bottom: 25px;
-    width: auto;
+    width: 100%;
 }
 
 .winners-table-body>tr:nth-child(even) {
@@ -839,3 +839,34 @@ form textarea {
         padding-bottom: 10px;
     }
 }
+
+@media screen and (max-width: 940px) {
+    
+    #winners-table th,
+    #winners-table td {
+        display:inline-block;
+        width: 24%;
+        text-align: start;
+    }
+    
+    #winners-table th:first-child,
+    #winners-table td:first-child {
+        display: block;
+        width: 100%;
+        font-weight: bold;
+        text-align: start;
+    }
+    
+}
+
+/* @media screen and (max-width: 940px) {
+    th,
+    td {
+        display:block;
+        width: 100%;
+    }
+    th:first-child,
+    td:first-child {
+        text-align: center;
+    }
+} */
