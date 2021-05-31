@@ -713,6 +713,7 @@ figcaption {
     padding: 15px 0;
 }
 
+/* container for responsive video player - */
 .video {
     width: 80%;
     margin: 0 auto;
