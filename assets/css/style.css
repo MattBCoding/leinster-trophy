@@ -682,7 +682,7 @@ figcaption {
     width: 100%;
 }
 
-#download-link >a {
+#download-link > a {
     text-decoration: none;
 }
 
