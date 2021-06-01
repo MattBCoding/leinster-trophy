@@ -709,7 +709,7 @@ figcaption {
     display: block;
 }
 
-.download-button:hover{
+#download-link > a:hover{
     text-decoration: underline;
 }
 
