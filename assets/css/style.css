@@ -108,7 +108,7 @@ header > a {
     flex-flow: row-reverse wrap-reverse;
     justify-content: center;
     align-items: center;
-    padding: 15px
+    padding: 1rem;
 }
 
 .next-race-text {
@@ -931,6 +931,40 @@ form textarea {
     .hero-text > h2 {
         font-size: 2rem;
         padding-bottom: 1.5rem;
+    }
+
+    /* Next Race Banner for Mobile*/
+    .next-race {
+        padding: 1.75rem;
+    }
+
+    .next-race-text {
+        margin: 0;
+    }
+
+    .next-race-image {
+        margin: 0;
+    }
+
+    .next-race-text > h2 {
+        font-size: 2.5rem;
+    }
+
+    .next-race-text > h3 {
+        font-size: 1.75rem;
+    }
+
+    .next-race-text > p {
+        font-size: 1.25rem;
+        padding: 1rem;
+    }
+
+    .next-race-button {
+        margin: 15px;
+    }
+
+    .next-race-image > img {
+        object-fit: cover;
     }
     
     /* Winners table format for mobile.*/
