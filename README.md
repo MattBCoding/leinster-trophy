@@ -56,15 +56,23 @@ In this section go over the different parts of the project, and describe each in
 
 ![Nav Bar](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-nav.png)
 
-* Landing page image - hero image
+* Hero image
 
   * Each page includes a hero image with a text overlay which further indicates to the user exactly which section of the site they are on.
   * The image was careful chosen due to the historic race car within the image along with the iconic colour scheme as a visual reminder that the Leinster Trophy race is an event with a rich and long running history. The same colour scheme as the vehicle in the image was utilised throughout the site.
 
 ![Hero Image](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-hero.png)
 
-* Next race section
-  * details of the section
+### Home Page Features
+
+* Next race banner
+
+  * The home page includes a banner providing details of the next Leinster Trophy race to occur. It includes the important details of which event it is, when it will happen and where it takes place.
+  * There are two buttons included in the banner. They are indicated as Entry and Tickets. The entry button takes the user to the race entry website which is provided by the race venue Mondello Park. The ticket button takes the user to the ticket purchasing site which is provided by Irish Championship Circuit Racing. Both links open in new windows.
+  * The banner also includes an image of two modern racecars competing on track as a visual indicator to the user that it is modern racecars that compete during the event.
+
+![Next Race](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-next-race.png)
+
   * include image
 * statistics section
   * details of the section
