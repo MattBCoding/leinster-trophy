@@ -904,3 +904,19 @@ form textarea {
 
 }
 
+@media screen and (max-width: 595px) {
+    html {
+        font-size: 14px;
+    }
+    /* nav bar adjustment */
+    #menu > li {
+        flex-basis: 100%;
+        padding-bottom: 10px;
+    }
+    
+    
+    
+    }
+    
+    
+    
