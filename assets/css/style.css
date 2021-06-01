@@ -908,6 +908,7 @@ form textarea {
     html {
         font-size: 14px;
     }
+
     /* nav bar adjustment */
     #menu > li {
         flex-basis: 100%;
@@ -915,13 +916,14 @@ form textarea {
     }
     
     /* Winners table format for mobile.*/
-    th,
-    td {
+    #winners-table th,
+    #winners-table td {
         display:block;
         width: 100%;
+        text-align: center;
     }
-    th:first-child,
-    td:first-child {
+    #winners-table th:first-child,
+    #winners-table td:first-child {
         text-align: center;
     }
 
