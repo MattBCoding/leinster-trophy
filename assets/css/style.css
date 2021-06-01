@@ -914,6 +914,24 @@ form textarea {
         flex-basis: 100%;
         padding-bottom: 10px;
     }
+
+    .hero-outer {
+        height: 600px;
+    }
+
+    .hero-text {
+        margin: 0 1.75rem;
+    }
+
+    .hero-text > h1 {
+        font-size: 3rem;
+        padding: 1.5rem 1.5rem 0;
+    }
+
+    .hero-text > h2 {
+        font-size: 2rem;
+        padding-bottom: 1.5rem;
+    }
     
     /* Winners table format for mobile.*/
     #winners-table th,
