@@ -1005,7 +1005,7 @@ form textarea {
     #email {
         padding-left: 1rem;
         min-width: 0;
-        
+
     }
 
     /*trophy.html specific styling*/
@@ -1039,6 +1039,16 @@ form textarea {
     #winners-table th:first-child,
     #winners-table td:first-child {
         text-align: center;
+    }
+
+    /*Gallery styling*/
+    .video {
+        width: 100%;
+    }
+
+    /* drop photo gallery down to one column */
+    .photo-container {
+        column-count: 1;
     }
 
 }
