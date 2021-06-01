@@ -46,10 +46,12 @@ Once the overall structure for each page had been established, I moved into figm
 
 ## Features
 In this section go over the different parts of the project, and describe each in a sentance or so. Explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things. 
-### Existing Features 
+### Common Features 
 * Navigation Bar
-  * Details of the nav bar
-  * include image
+  * The navigation bar features a common design across all five pages in keeping with convention with a logo on the left hand size and the navigation links on the right.
+  * The navigation bar includes links on the logo, Home, Trophy, Winners, Gallery and Contact. The various title links head to their respective pages, the logo links back to the homepage as a typical shortcut users will likely be familiar with.
+  * The navigation bar is fully responsive, for smaller screens, the format of the bar changes to a column orientation with the logo at the top centered on the page and the title links vertically aligned underneath. For tablets and screens in between there is a staggered change through the use of media queries in order to maximise its size.
+![Nav Bar](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-nav.png)
 * Landing page image - hero image
   * Details of the section
   * include image
