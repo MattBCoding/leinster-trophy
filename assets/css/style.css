@@ -896,4 +896,11 @@ form textarea {
         margin: 0 10px;
         text-align: center;
     }
+
+    /* drop photo gallery down to two columns */
+    .photo-container {
+        column-count: 2;
+    }
+
 }
+
