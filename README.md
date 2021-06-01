@@ -31,7 +31,9 @@ arising from user stories Insert oppotunities table, opportunities/Importance/Vi
 
 
 ## Wireframe mockups
-Include screen shots from balsamic for the wireframe mockups one for each page - include differences between mobile, tablet and desktop views.
+Initially I utilised Balsamiq to produce low fidelity wireframes to organise the site structure, potential content placement locations and test the size of each page.
+
+* [Home screen wireframe]()
 
 ## Features
 In this section go over the different parts of the project, and describe each in a sentance or so. Explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things. 
