@@ -535,7 +535,7 @@ header > a {
 #email {
     height: 50px;
     width: 80%;
-    /* min-width: 300px; */
+    min-width: 300px;
     max-width: 800px;
     background-color: #ffefb7;
     border-radius: 8px;
@@ -1004,8 +1004,31 @@ form textarea {
 
     #email {
         padding-left: 1rem;
+        min-width: 0;
+        
+    }
+
+    /*trophy.html specific styling*/
+    .float-left,
+    .float-right {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .float-left > img,
+    .float-right > img {
+        min-width: 0;
+        max-width: 100%;
     }
     
+    figcaption {
+        min-width: 0;
+        max-width: 100%;
+    }
+
+    .trophy-errors{
+        min-width: 0;
+    }
     /* Winners table format for mobile.*/
     #winners-table th,
     #winners-table td {
