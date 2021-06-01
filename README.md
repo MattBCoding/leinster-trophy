@@ -73,10 +73,14 @@ In this section go over the different parts of the project, and describe each in
 
 ![Next Race](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-next-race.png)
 
-  * include image
-* statistics section
-  * details of the section
-  * include image
+* Statistics section
+  
+  * The main information section of the homepage provides the users with highlight statistics about the achievements of past competitors, reminding users that the Leinster Trophy race has launched the careers of some of the worlds greatest drivers.
+  * For desktop and tablet layouts, the statistics are presented in the shape of a staggered motorsport grid. With each of the four cards lining up in position as would the racecars about to start a race. This format is reinforced by the yellow horizontal start line positioned at the start of the section, along with the grid box markings surrounding the cards.
+  * The statistic cards provide easy access to some of the historical facts regarding the Leinster Trophy race.
+
+![Statistics Grid](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-statistics.png)
+
 * navigation element - shortcut
   * details of the shortcut
   * image of the shortcut
