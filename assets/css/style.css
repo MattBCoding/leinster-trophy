@@ -592,6 +592,12 @@ header > a {
     border-bottom: .1rem solid #ffc702;
 }
 
+.copyright {
+    text-align: center;
+    color: #ffc702;
+    padding-bottom: 10px;
+}
+
 /* ============================
 ==Trophy.html specific styling==
 =============================== */
