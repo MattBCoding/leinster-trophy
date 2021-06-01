@@ -914,9 +914,17 @@ form textarea {
         padding-bottom: 10px;
     }
     
-    
-    
+    /* Winners table format for mobile.*/
+    th,
+    td {
+        display:block;
+        width: 100%;
     }
-    
+    th:first-child,
+    td:first-child {
+        text-align: center;
+    }
+
+}
     
     
