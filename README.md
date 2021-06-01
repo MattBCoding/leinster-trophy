@@ -1,83 +1,36 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome MattBCoding,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
----
-
-Happy coding!
-
-# README START 
+# Leinster Trophy 
 ## Introduction
-Provide a summary overview of the project. The sales pitch. What it hopes to accomplish, who it is intended to target and how it will be useful to the target audience.
+Leinster Trophy is a site all about the history of the Leinster Trophy and the people who have successfully competed in the motor race for which the trophy is awarded. The site is targetted towards people with an interest in the history of the race, the trophy, and previous winners. Leinster Trophy will be useful as a reference for those seeking information about the trophy or past race winners.
 
-# UX
-## Leinster Motor Club:
-The trophy is the crown jewel of the leinster motor club, who currently have a website in development. The leinster trophy race needs a site of its own to promote it in its own right. What it needs to include what they need to get out of it
+## UX
+### Leinster Motor Club:
+The trophy is the crown jewel of the Leinster Motor Club, who currently have a website in development. The Leinster Motor Club organise and run multiple motorsport based events each year, covering a variety of classes across both motorcar and motorbike disciplines. Therefore the Leinster Trophy race needs a site of its own to aid in the promotion of the signature event. 
 
-# User stories
-* As a user I want to easily find information about the race
-* As a user I want to easily find information about past winners of the race
-* As a user I want to easily find out about the history of the trophy
-* As the organisation we want to promote the trophy and increase its prestige
-* As the organisation we want to capture a larger social media following
-* As the organisation we want to be able to market directly to interested parties in a cost effective manner
+### User Stories
+* As a user I want to easily find information about the next race.
+* As a user I want to easily find information about past winners of the race wherever I am.
+* As a user I want to easily find out about the history of the trophy.
+* As a user I want to easily contact someone about the race.
+* As the organisation we want to promote the trophy and increase its prestige.
+* As the organisation we want to promote our social media channels.
+* As the organisation we want to be able to market directly to interested parties in a cost effective manner.
 
-# Opportunities
+### Opportunities
 arising from user stories Insert oppotunities table, opportunities/Importance/Viability/Feasibility
+|Opportunities | Importance | Viability / Feasibility
+|-----|:------:|:-----:|
+|**Promote the next race** | 5 | 5 |
+|**Provide reference details for past winners** | 5 | 5 |
+|**Provide reference material for trophy history** | 5 | 5 |
+|**Responsive site suitable for mobile and tablets** | 5 | 5 |
+|**Highlight key information on past winners to increase prestige** | 5 | 5 |
+|**Provide standalone online presence**| 5 | 5 |
+|**Provide single point of reference and contact for the trophy and race**| 5 | 5 |
+|**Promote cost effective marketing channels** | 4 | 5 |
+|~~Enable users to search past race records~~ | 2 | 1 |
 
-# Wireframe mockups
+
+## Wireframe mockups
 Include screen shots from balsamic for the wireframe mockups one for each page - include differences between mobile, tablet and desktop views.
 
 ## Features
