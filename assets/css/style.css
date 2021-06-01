@@ -966,6 +966,36 @@ form textarea {
     .next-race-image > img {
         object-fit: cover;
     }
+
+    .main {
+        margin: 1.75rem 1.75rem 0;
+    }
+
+    #finish-line {
+        padding: 0;
+        height: 0;
+    }
+
+    .statistics-grid {
+        grid-template-columns: auto;
+        row-gap: 1rem;
+        grid-template-areas: 
+            "f1"
+            "f1"
+            "f1"
+            "."
+            "indy"
+            "indy"
+            "indy"
+            "."
+            "lemans"
+            "lemans"
+            "lemans"
+            "."
+            "drivers"
+            "drivers"
+            "drivers";
+    }
     
     /* Winners table format for mobile.*/
     #winners-table th,
