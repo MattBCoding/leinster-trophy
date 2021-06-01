@@ -535,7 +535,7 @@ header > a {
 #email {
     height: 50px;
     width: 80%;
-    min-width: 300px;
+    /* min-width: 300px; */
     max-width: 800px;
     background-color: #ffefb7;
     border-radius: 8px;
@@ -995,6 +995,15 @@ form textarea {
             "drivers"
             "drivers"
             "drivers";
+    }
+
+/* newsletter sign up for mobile*/
+    .email-form {
+        padding: 0;
+    }
+
+    #email {
+        padding-left: 1rem;
     }
     
     /* Winners table format for mobile.*/
