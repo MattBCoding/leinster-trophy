@@ -71,6 +71,14 @@ In this section go over the different parts of the project, and describe each in
 
 ![Footer Top](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-footer-top.png)
 
+* Footer - Bottom
+
+  * The lower section of the common footer includes logo links to each of the social media platforms that the Leinster Motor Club is present on. This provides the user with a visual call to action to prompt them into visiting the organisations social media profiles.
+  * These links offer an unintrusive method of promoting the social media channels to the user, providing benefits to the organisation by the way of increased social media following.
+  * The lower footer section also includes the copyright notice.
+
+![Footer Bottom](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-footer-bottom.png)
+
 ### Home Page Features
 
 * Next race banner
