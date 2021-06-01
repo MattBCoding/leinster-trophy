@@ -22,6 +22,7 @@ header {
     background-color: #152a25;
     padding: 1rem;
     min-height: 100px;
+    height: auto;
     max-height: 300px;
     
 }
@@ -40,7 +41,7 @@ header > a {
     line-height: 100px;
 }
 
-#menu li{
+#menu > li{
     float: left;
     list-style-type: none;
     margin-right: 1.75rem;
@@ -718,7 +719,7 @@ figcaption {
     width: 80%;
     margin: 0 auto;
 }
-/* responsive youtube code taken from article on 
+/* responsive youtube code adapted from article on 
 avexdesigns.com/blog/responsive-youtube-embed */
 .youtube-container { 
     position: relative; 
@@ -856,17 +857,43 @@ form textarea {
         font-weight: bold;
         text-align: start;
     }
-    
+
 }
 
-/* @media screen and (max-width: 940px) {
-    th,
-    td {
-        display:block;
-        width: 100%;
+@media screen and (max-width: 785px) {
+    html {
+        font-size: 15px;
     }
-    th:first-child,
-    td:first-child {
+
+    header {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    header > a {
+        font-size: 3rem;
+        margin: 0;
         text-align: center;
     }
-} */
+
+    #menu {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+
+    #menu > li {
+        margin: 0 10px;
+        text-align: center;
+    }
+}
