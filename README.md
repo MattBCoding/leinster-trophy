@@ -48,13 +48,21 @@ Once the overall structure for each page had been established, I moved into figm
 In this section go over the different parts of the project, and describe each in a sentance or so. Explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things. 
 ### Common Features 
 * Navigation Bar
+
   * The navigation bar features a common design across all five pages in keeping with convention with a logo on the left hand size and the navigation links on the right.
-  * The navigation bar includes links on the logo, Home, Trophy, Winners, Gallery and Contact. The various title links head to their respective pages, the logo links back to the homepage as a typical shortcut users will likely be familiar with.
+  * The navigation bar includes links on the logo, Home, Trophy, Winners, Gallery and Contact. The various title links head to their respective pages for easy navigation. The logo links back to the homepage as a typical shortcut users will likely be familiar with.
   * The navigation bar is fully responsive, for smaller screens, the format of the bar changes to a column orientation with the logo at the top centered on the page and the title links vertically aligned underneath. For tablets and screens in between there is a staggered change through the use of media queries in order to maximise its size.
+  * A horizontal line appears under the current page as a visual indicator to the user as to which page they are currently on.
+
 ![Nav Bar](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-nav.png)
+
 * Landing page image - hero image
-  * Details of the section
-  * include image
+
+  * Each page includes a hero image with a text overlay which further indicates to the user exactly which section of the site they are on.
+  * The image was careful chosen due to the historic race car within the image along with the iconic colour scheme as a visual reminder that the Leinster Trophy race is an event with a rich and long running history. The same colour scheme as the vehicle in the image was utilised throughout the site.
+
+![Hero Image](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-hero.png)
+
 * Next race section
   * details of the section
   * include image
