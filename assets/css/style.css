@@ -1051,6 +1051,20 @@ form textarea {
         column-count: 1;
     }
 
+    /*Contact.html*/
+    .text-input {
+        padding-left: 1rem;
+    }
+
+    .contact-form > input,
+    .contact-form > textarea {
+        font-size: 1rem;
+    }
+
+    .send-button {
+        font-size: 1.25rem !important;
+    }
+
 }
     
     
