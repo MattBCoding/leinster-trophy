@@ -63,6 +63,14 @@ In this section go over the different parts of the project, and describe each in
 
 ![Hero Image](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-hero.png)
 
+* Footer - Top
+
+  * Each page includes a common footer split into two sections.
+  * The top section of the footer includes a navigation shortcut back to the top of the page to provide easy navigation around the site for users.
+  * There is also a call to action for the user to subscribe to the newsletter. This provides the users with an opportunity to keep on top of the latest information about the Leinster Trophy, whilst providing the Leinster Motor Club with additional subscribers.
+
+![Footer Top](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-footer-top.png)
+
 ### Home Page Features
 
 * Next race banner
