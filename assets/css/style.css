@@ -158,6 +158,10 @@ header > a {
     inset 4px 4px 4px 0px rgba(255, 255, 255, .25);
 }
 
+.buttons > a:hover {
+    text-decoration: underline;
+}
+
 .next-race-button {
     background-color: #ffc702;
     text-decoration: none;
