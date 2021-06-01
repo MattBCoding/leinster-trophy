@@ -33,7 +33,16 @@ arising from user stories Insert oppotunities table, opportunities/Importance/Vi
 ## Wireframe mockups
 Initially I utilised Balsamiq to produce low fidelity wireframes to organise the site structure, potential content placement locations and test the size of each page.
 
-* [Home screen wireframe]()
+* [Home page wireframe](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/wireframes/wireframe-home.png)
+* [Trophy page wireframe](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/wireframes/wireframe-trophy.png)
+* [Winners page wireframe](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/wireframes/wireframe-winners.png)
+* [Gallery page wireframe](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/wireframes/wireframe-gallery.png)
+* [Contact page wireframe](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/wireframes/wireframe-contact.png)
+
+Once the overall structure for each page had been established, I moved into figma to produce a full colour mockup to test the colour scheme and font selection. Once I was happy with the colours and font selection I also created a colour card to aid with the build process. To select the colours used I utilised the Adobe colour selector to pull the colours out of the hero image. As the hero image is of a racecar in a well known colour scheme, it allowed me to utilise it through out the site and keep on the theme.
+
+* [Home page full colour mockup](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/wireframes/figma-home.png)
+* [Colour card](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/wireframes/figma-color.png)
 
 ## Features
 In this section go over the different parts of the project, and describe each in a sentance or so. Explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things. 
