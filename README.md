@@ -138,6 +138,12 @@ In this section go over the different parts of the project, and describe each in
 
 ![Image Gallery](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-gallery-bottom.png)
 
+* Contact Page Features
+
+  * The contact form provides users with the ability to contact the Leinster Motor Club directly with any queries or comments they may have. The user is asked for their full name, email address, a message subject and the content of their message.
+
+![Contact Form](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-contact-form.png)
+
 
 
 
