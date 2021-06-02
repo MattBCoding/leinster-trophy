@@ -39,7 +39,7 @@ Initially I utilised Balsamiq to produce low fidelity wireframes to organise the
 * [Gallery page wireframe](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/wireframes/wireframe-gallery.png)
 * [Contact page wireframe](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/wireframes/wireframe-contact.png)
 
-Once the overall structure for each page had been established, I moved into figma to produce a full colour mockup to test the colour scheme and font selection. Once I was happy with the colours and font selection I also created a colour card to aid with the build process. To select the colours used I utilised the Adobe colour selector to pull the colours out of the hero image. As the hero image is of a racecar in a well known colour scheme, it allowed me to utilise it through out the site and keep on the theme.
+Once the overall structure for each page had been established, I moved into Figma to produce a full colour mockup to test the colour scheme and font selection. Once I was happy with the colours and font selection I also created a colour card to aid with the build process. To select the colours used I utilised the Adobe colour selector to pull the colours out of the hero image. As the hero image is of a racecar in a well known colour scheme, it allowed me to utilise it through out the site and keep on the theme.
 
 * [Home page full colour mockup](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/wireframes/figma-home.png)
 * [Colour card](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/wireframes/figma-color.png)
@@ -52,7 +52,7 @@ In this section go over the different parts of the project, and describe each in
   * The navigation bar features a common design across all five pages in keeping with convention with a logo on the left hand size and the navigation links on the right.
   * The navigation bar includes links on the logo, Home, Trophy, Winners, Gallery and Contact. The various title links head to their respective pages for easy navigation. The logo links back to the homepage as a typical shortcut users will likely be familiar with.
   * The navigation bar is fully responsive, for smaller screens, the format of the bar changes to a column orientation with the logo at the top centered on the page and the title links vertically aligned underneath. For tablets and screens in between there is a staggered change through the use of media queries in order to maximise its size.
-  * A horizontal line appears under the current page as a visual indicator to the user as to which page they are currently on.
+  * A horizontal line appears under the current page as a visual indicator to the user as to which page they are currently on. With a line appearing underneath the text on hover to visually indicate to users that they are clickable.
 
 ![Nav Bar](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-nav.png)
 
@@ -96,6 +96,18 @@ In this section go over the different parts of the project, and describe each in
   * The statistic cards provide easy access to some of the historical facts regarding the Leinster Trophy race.
 
 ![Statistics Grid](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-statistics.png)
+
+### Trophy Page Features
+
+* Trophy History Article
+  
+  * The main section of the Trophy page includes an article about the history of the Leinster Trophy. It provides the users with a detailed history of the trophy itself and highlights of notable winners.
+
+![Statistics Grid](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-history-top.png)
+
+  * The article also includes details of the errors that have appeared on the trophy over the years. These are also summarised in a table to enable the users to access the information quickly and easily.
+
+![Statistics Grid](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-history-bottom.png)
 
 * navigation element - shortcut
   * details of the shortcut
