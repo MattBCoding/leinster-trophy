@@ -144,34 +144,10 @@ In this section go over the different parts of the project, and describe each in
 
 ![Contact Form](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-contact-form.png)
 
-
-
-
-* navigation element - shortcut
-  * details of the shortcut
-  * image of the shortcut
-* Footer section
-  * footer upper details - newsletter signup
-  * include image
-* footer lower details
-  * include image
-* Trophy Page
-  * History of the Trophy section
-    * include image
-* Winners page
-  * Winners and Podium finishers data table
-  * Download link to full data file
-  * include images
-* Gallery page
-  * Video gallery - autoplay footage from prior year - youtube embedded - muted - autoplay
-  * Image gallery
-  * include images
-* Contact Page
-  * Contact form to receive enquiries
-  * include image
-
 ## Feature left to implement
-* other feature ideas
+
+* Filter and Search on Winners Table
+  * The data table included on the winners page is currently a static display of the information. It would be beneficial to users to enable the data to be filtered or searched. Unfortunately at this time the technology limitations of HTML and CSS only do not allow this to be implemented.
 * why they were not included
 
 ## Testing
