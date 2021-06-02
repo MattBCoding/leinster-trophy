@@ -103,11 +103,26 @@ In this section go over the different parts of the project, and describe each in
   
   * The main section of the Trophy page includes an article about the history of the Leinster Trophy. It provides the users with a detailed history of the trophy itself and highlights of notable winners.
 
-![Statistics Grid](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-history-top.png)
+![History Article Top](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-history-top.png)
 
   * The article also includes details of the errors that have appeared on the trophy over the years. These are also summarised in a table to enable the users to access the information quickly and easily.
 
-![Statistics Grid](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-history-bottom.png)
+![History Article Bottom](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-history-bottom.png)
+
+### Winners Page Features
+
+* Winners and podium finishers table
+
+  * The main section of the Winners page includes a data table providing users with the complete list of podium finishers for each year that the Leinster Trophy race has been held.
+  * The table includes the year of the race, the name of the winner, the winning car, the name of second and third place competitors.
+
+![Winners Table](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-winners-top.png)
+
+  * A link to a larger data file has been provided to users who might wish to access more detailed records for each race. The link opens a pdf file in a new window which provides users with the ability to save the information locally.
+
+![Winners Table Bottom](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-winners-bottom.png)
+
+
 
 * navigation element - shortcut
   * details of the shortcut
