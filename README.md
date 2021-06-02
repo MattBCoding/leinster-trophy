@@ -122,6 +122,23 @@ In this section go over the different parts of the project, and describe each in
 
 ![Winners Table Bottom](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-winners-bottom.png)
 
+  * The layout of the table is adjusted for users on smaller screens. This ensures that the information is easily visable regardless of device.
+
+  * The table borders group each decade and zebra striping was utilised to provide users with an improved ability to navigate the table contents.
+
+* Gallery Page Features
+
+  * The gallery page allows users to access high quality video and pictures of past events. This allows the users to easily identify the types of racecars competing within the event each year along with those of prior years.
+
+  * The embedded video provides users with high quality produced footage of past events. This allows the user to experience the scale and the excitement of the race.
+
+![Video Player](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-gallery-top.png)
+
+  * The image gallery also provides users with images of prior years to further promote the heritage and prestige of the competition.
+
+![Image Gallery](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-gallery-bottom.png)
+
+
 
 
 * navigation element - shortcut
