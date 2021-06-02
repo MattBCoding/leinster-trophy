@@ -24,7 +24,6 @@ header {
     min-height: 100px;
     height: auto;
     max-height: 300px;
-    
 }
 
 header > a {
@@ -147,18 +146,18 @@ header > a {
     padding: 3rem;
 }
 
-.buttons {
+.next-race-buttons-container {
     text-align: center;
 }
 
-.buttons > a {
+.next-race-buttons-container > a {
     display: inline-block;
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, .25),
     inset -4px 4px 4px 0px rgba(0, 0, 0, .25),
     inset 4px 4px 4px 0px rgba(255, 255, 255, .25);
 }
 
-.buttons > a:hover {
+.next-race-buttons-container > a:hover {
     text-decoration: underline;
 }
 
@@ -191,7 +190,7 @@ header > a {
     font-size: 1.25rem;
 }
 
-/* Setup of display grid */
+/* Setup of display grid for statistics area */
 .statistics-grid {
     font-family: "Racing Sans One", sans-serif;
     margin-top: 25px;
@@ -501,6 +500,7 @@ header > a {
     color: #152a25;
 }
 
+/* top of footer area styling */
 .footer-top {
     background-color: #ffc702;
     min-height: 100px;
@@ -508,7 +508,6 @@ header > a {
     margin-top: 25px;
     font-size: 1.25rem;
     padding: 0 1.75rem;
-    
 }
 
 .newsletter-container {
@@ -518,14 +517,12 @@ header > a {
     justify-content: center;
     align-content: center;
     align-items: baseline;
-    /* used to center elements vertically within .footer-top
-        needs a better solution */
     padding: 20px 0;
     text-align: center;
 }
+
 .newsletter-container > h2 {
     flex-shrink: 3;
-    /* padding: 10px; */
 }
 
 .email-form {
@@ -570,6 +567,7 @@ header > a {
     text-decoration: underline;
 }
 
+/* Bottom of footer area styling */
 .footer-bottom {
     min-height: 100px;
     max-height: 300px;
@@ -795,7 +793,6 @@ avexdesigns.com/blog/responsive-youtube-embed */
     border: 1px solid #152a25;
     border-radius: 5px;
     padding-left: 30px;
-    /* font-size: 1.25rem;     */
 }
 
 form textarea {
@@ -919,7 +916,7 @@ form textarea {
         font-size: 14px;
     }
 
-    /* nav bar adjustment */
+    /* nav bar adjustment for mobile*/
     #menu > li {
         flex-basis: 100%;
         padding-bottom: 10px;
@@ -1018,7 +1015,7 @@ form textarea {
 
     }
 
-    /*trophy.html specific styling*/
+    /*trophy.html specific styling for mobile*/
     .float-left,
     .float-right {
         margin: 10px 0;
@@ -1051,17 +1048,17 @@ form textarea {
         text-align: center;
     }
 
-    /*Gallery styling*/
+    /*Gallery styling for mobile*/
     .video {
         width: 100%;
     }
 
-    /* drop photo gallery down to one column */
+    /* drop photo gallery down to one column for mobile */
     .photo-container {
         column-count: 1;
     }
 
-    /*Contact.html*/
+    /*Contact.html for mobile*/
     .text-input {
         padding-left: 1rem;
     }
