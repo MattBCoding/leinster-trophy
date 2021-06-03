@@ -950,6 +950,12 @@ input {
         height: 600px;
     }
 
+    .hero-image {
+        background: url('../images/lotus-25-on-track-mobile.jpg') no-repeat center center;
+        background-size: cover;
+        height: 100%;
+    }
+
     .hero-text {
         margin: 0 1.75rem;
     }
