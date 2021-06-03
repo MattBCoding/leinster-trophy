@@ -830,6 +830,19 @@ form textarea {
     text-decoration: underline;
 }
 
+/* Newsletter thank you and form submit pages */
+.short-page {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.short-content {
+    flex: 1;
+    max-width: calc(100% - 3.5rem);
+    width: 500px;
+}
+
 
 /* =================================
 == Start of media queries section ==
