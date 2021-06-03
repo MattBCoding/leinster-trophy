@@ -188,7 +188,7 @@ I also utilised the Chrome and Firefox developer tools to simulate the display o
   * One interesting bug found was not a bug within my CSS code exactly, but a limitation of the Jigsaw CSS Validator. The statistics cards on the homepage have a yellow grid slot bar behind them. This was achieved by using a linear gradient on the card container element. The CSS code was written as background: linear-gradient(#ffc702 20%, #f5f5f5 20% 100%) this performed exactly as expected, shading the container element with the yellow colour until the 20% mark, then shading with the white for the remainder. However when the code was run through the Jigsaw validator it produced an error. After a lot of frustrating research I discovered that the Jigsaw validator does not recognise the multiple color stops syntax which is defined in level 4 of the CSS image module. I therefore had to change the code to background-image: linear-gradient(#ffc702 20%, #f5f5f5 20%, #f5f5f5 100%) which is the level 3 syntax to remove the error. The code is noted in the CSS file with a comment explaining the error and providing the rational for not utilising the shorthand code.
 
   * iOS devices displayed the buttons for input fields differently to other platforms. Upon investigation it appears to be related to how Apple have chosen to control these elements within iOS safari. To overcome the changes to the buttons I edited the css code to include a line telling safari not to change the appearance of the buttons. This solution was discovered after a quick google search, appearing multiple times across different sites. I ultimately utilised the solution found on stack overflow and included -webkit-appearance: none; within the style.css file.
-  ![iOS button bug](/assets/media/ios-changes-buttons.jpg) ![iOS fixed buttons](/assets/media/fix-ios-buttons.jpg)
+  [iOS button bug](/assets/media/ios-changes-buttons.jpg) [iOS fixed buttons](/assets/media/fix-ios-buttons.jpg)
 
 ## Validator Testing 
 * HTML 
@@ -203,18 +203,26 @@ I also utilised the Chrome and Firefox developer tools to simulate the display o
 * CSS
   * No errors were returned when passing through the official (Jigsaw) Validator [Link to results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
+* Lighthouse
+  * I generated a lighthouse report for the deployed site through the Google Chrome Dev Tools. I generated both a desktop and mobile report. 
+  * For the initial desktop report, the SEO score had a warning that the site did not have a description within the meta tags, to resolve this and improve the score a description was added to the site.
+  ![Lighthouse Desktop Scorecard](/assets/media/lighthouse-desktop-score.png)
+
+  * For the initial mobile report, the performance score was 79 due to the size of the hero image. To resolve this and improve the score a smaller image was selected for the hero image on mobile devices utilising the media queries to call the smaller image on mobiles.
+  ![Lighthouse Mobile Scorecard](/assets/media/lighthouse-mobile-score-final.png)
+
 ## Unfixed bugs
-you will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+All of the bugs discovered during the testing procedures have been rectified.
 
 ## Deployment 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+ 
 * The site was deployed to GitHub pages. the steps to deploy are as follows: 
   * in the GitHub repository, navigate to the settings tab
   * select the pages link from the setting menu on the left hand side 
   * Under the GitHub Pages from the source section drop-down menu, select the master branch 
   * One the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
   
-The live link can be found here - (include link to live site)
+The live link can be found here - [Leinster Trophy Live Site](https://mattbcoding.github.io/leinster-trophy/index.html)
 
 ## Credits
 
