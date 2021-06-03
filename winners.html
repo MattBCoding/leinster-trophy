@@ -623,15 +623,13 @@
 <!-- footer bar -->
     <footer>
         <div class="footer-top">
-            <form method="POST" action="https://formdump.codeinstitute.net/">
-                <div class="newsletter-container">
-                    <h2>Sign up for our newsletter</h2>
-                    <span class="email-form">
-                        <label for="email" id="email-label">email</label>
-                        <input type="email" id="email" name="email_address" placeholder="myname@email.com" required>
-                    </span>
-                    <input class="sign-up-button" type="submit" value="Sign Up">
-                </div>
+            <form method="GET" action="newsletter-submit.html" class="newsletter-container">
+                <h2>Sign up for our newsletter</h2>
+                <span class="email-form">
+                    <label for="email" id="email-label">email:</label>
+                    <input type="email" id="email" name="email_address" placeholder="myname@email.com" required>
+                </span>
+                <input class="sign-up-button" type="submit" value="Sign Up">
             </form>
         </div>
         <div class="footer-bottom">
