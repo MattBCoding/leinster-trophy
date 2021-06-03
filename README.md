@@ -144,6 +144,17 @@ In this section go over the different parts of the project, and describe each in
 
 ![Contact Form](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-contact-form.png)
 
+* Hidden Pages
+
+  * Two hidden pages were created to display thank you messages to users that submit one of the forms.
+  * A thank you for subscribing message is displayed to users who subscribe to the newsletter. This provides the user with confirmation that they have successfully subscribed, whilst also providing reassurance regarding the frequency of the newsletter emails.
+  * A response to the contact form submission is displayed to users who send a message to the organisation through the website. This provides the user with confirmation that their message was successfully sent, whilst also providing them with an expectation as to response times.
+  * The form submit response message also includes a call to action for the user to consider subscribing to the newsletter or the social media channels, further promoting them for the organisation.
+
+![Newsletter Subscriber Thank You](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-newsletter-thankyou.png)
+
+![Form Submission](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-form-submit.png)
+
 ## Feature left to implement
 
 * Filter and Search on Winners Table

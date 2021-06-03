@@ -830,7 +830,10 @@ form textarea {
     text-decoration: underline;
 }
 
-/* Newsletter thank you and form submit pages */
+/* ======================================================
+==newsletter thank you and form submit specific styling==
+========================================================= */
+
 .short-page {
     display: flex;
     min-height: 100vh;
