@@ -830,6 +830,8 @@ form textarea {
     text-decoration: underline;
 }
 
+/* solution for iOS overriding button styling found on stackoverflow
+https://stackoverflow.com/questions/5449412/styling-input-buttons-for-ipad-and-iphone*/
 input {
     -webkit-appearance: none;
     -moz-appearance: none;
