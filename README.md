@@ -168,10 +168,27 @@ In this section go over the different parts of the project, and describe each in
   * Unfortunately at this time the technology limitations of HTML and CSS only do not allow this to be implemented.
 
 ## Testing
-Here you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your projects features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals. In addition, you should mention in this section how your project looks and works on different browsers and screen sizes. 
+I took a two stage approach to testing the site. The first stage was continuous testing as the site was being developed. Upon styling the site I would check the application of the styling being applied within a live server window. This allowed me to confirm the styling was being applied correctly and the page was behaving as desired. 
+
+For the second stage of testing, I utilised a more formal structured approach and created a test schedule for each page. I then proceeded to run through the tests for each device making a note of any errors or differences to the designed behaviour as I ran through the testing. The test schedule can be accessed here. [Test Schedule pdf](/assets/documents/testingitems.pdf)
+
+Testing was performed with the following devices/browsers:
+  * Desktop computer: 2560 x 1440p
+    * Google Chrome
+    * Firefox
+    * Microsoft Edge
+  * iPad Air: 1536 x 2048 display
+    * iOS Safari
+  * iPhone Xr: 828 x 1792 display
+    * iOS Safari
+
+I also utilised the Chrome and Firefox developer tools to simulate the display on other devices and test the responsiveness of the site.
 
 * Interesting Bugs
   * One interesting bug found was not a bug within my CSS code exactly, but a limitation of the Jigsaw CSS Validator. The statistics cards on the homepage have a yellow grid slot bar behind them. This was achieved by using a linear gradient on the card container element. The CSS code was written as background: linear-gradient(#ffc702 20%, #f5f5f5 20% 100%) this performed exactly as expected, shading the container element with the yellow colour until the 20% mark, then shading with the white for the remainder. However when the code was run through the Jigsaw validator it produced an error. After a lot of frustrating research I discovered that the Jigsaw validator does not recognise the multiple color stops syntax which is defined in level 4 of the CSS image module. I therefore had to change the code to background-image: linear-gradient(#ffc702 20%, #f5f5f5 20%, #f5f5f5 100%) which is the level 3 syntax to remove the error. The code is noted in the CSS file with a comment explaining the error and providing the rational for not utilising the shorthand code.
+
+  * iOS devices displayed the buttons for input fields differently to other platforms. Upon investigation it appears to be related to how Apple have chosen to control these elements within iOS safari. To overcome the changes to the buttons I edited the css code to include a line telling safari not to change the appearance of the buttons. This solution was discovered after a quick google search, appearing multiple times across different sites. I ultimately utilised the solution found on stack overflow and included -webkit-appearance: none; within the style.css file.
+  ![iOS button bug](/assets/media/ios-changes-buttons.jpg) ![iOS fixed buttons](/assets/media/fix-ios-buttons.jpg)
 
 ## Validator Testing 
 * HTML 
