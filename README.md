@@ -2,7 +2,7 @@
 ## Introduction
 Leinster Trophy is a site all about the history of the Leinster Trophy and the people who have successfully competed in the motor race for which the trophy is awarded. The site is targetted towards people with an interest in the history of the race, the trophy, and previous winners. Leinster Trophy will be useful as a reference for those seeking information about the trophy or past race winners.
 
-![Responsive Screenshot Mockup](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/ss-homepage.png)
+![Responsive Screenshot Mockup](/assets/media/ss-homepage.png)
 
 <div align="center">
 [View the live website on GitHub Pages](https://mattbcoding.github.io/leinster-trophy/index.html)
