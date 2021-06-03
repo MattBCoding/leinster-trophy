@@ -169,9 +169,16 @@ Here you need to convince the assessor that you have conducted enough testing to
 
 ## Validator Testing 
 * HTML 
-  * No errors were returned when passing through the official W3C Validator (link to validation results) 
+  * No errors were returned when passing through the official W3C Validator.
+  [Home page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Findex.html)
+  [Trophy page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Ftrophy.html)
+  [Winners page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Fwinners.html)
+  [Gallery page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Fgallery.html)
+  [Contact page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Fcontact.html)
+  [Newsletter thank you page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Fnewsletter-submit.html)
+  [Form submission page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Fform-submit.html)
 * CSS
-  * No errors were returned when passing through the official (Jigsaw) Validator (link to validation results)
+  * No errors were returned when passing through the official (Jigsaw) Validator [Link to results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## Unfixed bugs
 you will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
