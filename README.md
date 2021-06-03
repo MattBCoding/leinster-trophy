@@ -4,9 +4,7 @@ Leinster Trophy is a site all about the history of the Leinster Trophy and the p
 
 ![Responsive Screenshot Mockup](/assets/media/ss-homepage-top.png)
 
-<div align="center">
 [View the live website on GitHub Pages](https://mattbcoding.github.io/leinster-trophy/index.html)
-</div>
 
 ## UX
 ### Leinster Motor Club:
@@ -152,10 +150,11 @@ In this section go over the different parts of the project, and describe each in
 
 * Hidden Pages
 
-  * Two hidden pages were created to display thank you messages to users that submit one of the forms.
+  * Two pages that do not appear on the navigation bar were created to display thank you messages to users that submit one of the forms.
   * A thank you for subscribing message is displayed to users who subscribe to the newsletter. This provides the user with confirmation that they have successfully subscribed, whilst also providing reassurance regarding the frequency of the newsletter emails.
   * A response to the contact form submission is displayed to users who send a message to the organisation through the website. This provides the user with confirmation that their message was successfully sent, whilst also providing them with an expectation as to response times.
   * The form submit response message also includes a call to action for the user to consider subscribing to the newsletter or the social media channels, further promoting them for the organisation.
+  * For both pages, due to the small overall length, the bookmark link was not required. The hero image was also not used to keep it clear to users that this was not a page with other information on.
 
 ![Newsletter Subscriber Thank You](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-newsletter-thankyou.png)
 
@@ -191,6 +190,7 @@ I also utilised the Chrome and Firefox developer tools to simulate the display o
   [iOS button bug](/assets/media/ios-changes-buttons.jpg) [iOS fixed buttons](/assets/media/fix-ios-buttons.jpg)
 
 ## Validator Testing 
+
 * HTML 
   * No errors were returned when passing through the official W3C Validator.
     * [Home page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Findex.html)
@@ -200,6 +200,7 @@ I also utilised the Chrome and Firefox developer tools to simulate the display o
     * [Contact page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Fcontact.html)
     * [Newsletter thank you page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Fnewsletter-submit.html)
     * [Form submission page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Fform-submit.html)
+
 * CSS
   * No errors were returned when passing through the official (Jigsaw) Validator [Link to results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
@@ -208,7 +209,7 @@ I also utilised the Chrome and Firefox developer tools to simulate the display o
   * For the initial desktop report, the SEO score had a warning that the site did not have a description within the meta tags, to resolve this and improve the score a description was added to the site.
   ![Lighthouse Desktop Scorecard](/assets/media/lighthouse-desktop-score.png)
 
-  * For the initial mobile report, the performance score was 79 due to the size of the hero image. To resolve this and improve the score a smaller image was selected for the hero image on mobile devices utilising the media queries to call the smaller image on mobiles.
+  * For the initial mobile report, the performance score was 79 due to the size of the hero image. To resolve this and improve the score a smaller image was created for the hero image on mobile devices. Utilising the media queries to call the smaller image on mobiles.
   ![Lighthouse Mobile Scorecard](/assets/media/lighthouse-mobile-score-final.png)
 
 ## Unfixed bugs
@@ -217,8 +218,8 @@ All of the bugs discovered during the testing procedures have been rectified.
 ## Deployment 
  
 * The site was deployed to GitHub pages. the steps to deploy are as follows: 
-  * in the GitHub repository, navigate to the settings tab
-  * select the pages link from the setting menu on the left hand side 
+  * In the GitHub repository, navigate to the settings tab
+  * Select the pages link from the setting menu on the left hand side 
   * Under the GitHub Pages from the source section drop-down menu, select the master branch 
   * One the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
   
@@ -226,9 +227,9 @@ The live link can be found here - [Leinster Trophy Live Site](https://mattbcodin
 
 ## Credits
 
-### Content 
-* The text for the homepage 
-* The trophy history article was adapted from an article written by Brian Manning with permission 
+### Content  
+* The trophy history article and the winners list were adapted from an article written by Brian Manning with permission.
+* The text for all other pages was created by myself. 
 * The reference material on HTML and CSS provided by [w3schools.com](https://www.w3schools.com/) was utilised to implement flexbox and grid and as general reference material for other areas. 
 * The icons used for the logo, bookmark link, download button and in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
