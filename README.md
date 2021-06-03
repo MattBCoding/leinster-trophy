@@ -2,6 +2,12 @@
 ## Introduction
 Leinster Trophy is a site all about the history of the Leinster Trophy and the people who have successfully competed in the motor race for which the trophy is awarded. The site is targetted towards people with an interest in the history of the race, the trophy, and previous winners. Leinster Trophy will be useful as a reference for those seeking information about the trophy or past race winners.
 
+![Responsive Screenshot Mockup](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/ss-homepage.png)
+
+<div align="center">
+[View the live website on GitHub Pages](https://mattbcoding.github.io/leinster-trophy/index.html)
+</div>
+
 ## UX
 ### Leinster Motor Club:
 The trophy is the crown jewel of the Leinster Motor Club, who currently have a website in development. The Leinster Motor Club organise and run multiple motorsport based events each year, covering a variety of classes across both motorcar and motorbike disciplines. Therefore the Leinster Trophy race needs a site of its own to aid in the promotion of the signature event. 
@@ -170,13 +176,13 @@ Here you need to convince the assessor that you have conducted enough testing to
 ## Validator Testing 
 * HTML 
   * No errors were returned when passing through the official W3C Validator.
-  [Home page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Findex.html)
-  [Trophy page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Ftrophy.html)
-  [Winners page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Fwinners.html)
-  [Gallery page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Fgallery.html)
-  [Contact page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Fcontact.html)
-  [Newsletter thank you page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Fnewsletter-submit.html)
-  [Form submission page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Fform-submit.html)
+    * [Home page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Findex.html)
+    * [Trophy page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Ftrophy.html)
+    * [Winners page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Fwinners.html)
+    * [Gallery page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Fgallery.html)
+    * [Contact page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Fcontact.html)
+    * [Newsletter thank you page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Fnewsletter-submit.html)
+    * [Form submission page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Fform-submit.html)
 * CSS
   * No errors were returned when passing through the official (Jigsaw) Validator [Link to results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 

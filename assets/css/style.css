@@ -830,6 +830,12 @@ form textarea {
     text-decoration: underline;
 }
 
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    }
+
 /* ======================================================
 ==newsletter thank you and form submit specific styling==
 ========================================================= */
