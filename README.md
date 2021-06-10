@@ -160,11 +160,12 @@ In this section go over the different parts of the project, and describe each in
 
 ![Form Submission](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/media/leinster-trophy-form-submit.png)
 
-## Feature left to implement
+## Future Enhancements
 
 * Filter and Search on Winners Table
-  * The data table included on the winners page is currently a static display of the information. It would be beneficial to users to enable the data to be filtered or searched. 
-  * Unfortunately at this time the technology limitations of HTML and CSS only do not allow this to be implemented.
+  * The data table included on the winners page is currently a static display of the information. It would be beneficial to users to enable the data to be filtered and/or searched through. This would have a positive impact on the user experience. 
+* Gallery options
+  * It would be beneficial to both users and the organisation for the gallery section of the website to also have the ability to be filtered. Adding this functionality would enable the organisation to utilise the gallery to document each year of the race. The users could then filter the results to only see images from the year they selected.
 
 ## Testing
 I took a two stage approach to testing the site. The first stage was continuous testing as the site was being developed. Upon styling the site I would check the application of the styling being applied within a live server window. This allowed me to confirm the styling was being applied correctly and the page was behaving as desired. 
@@ -211,9 +212,6 @@ I also utilised the Chrome and Firefox developer tools to simulate the display o
 
   * For the initial mobile report, the performance score was 79 due to the size of the hero image. To resolve this and improve the score a smaller image was created for the hero image on mobile devices. Utilising the media queries to call the smaller image on mobiles.
   ![Lighthouse Mobile Scorecard](/assets/media/lighthouse-mobile-score-final.png)
-
-## Unfixed bugs
-All of the bugs discovered during the testing procedures have been rectified.
 
 ## Deployment 
  
