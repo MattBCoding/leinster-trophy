@@ -903,7 +903,7 @@ input {
 
 }
 
-@media screen and (max-width: 785px) {
+@media screen and (max-width: 800px) {
     html {
         font-size: 15px;
     }
@@ -947,7 +947,7 @@ input {
 
 }
 
-@media screen and (max-width: 595px) {
+@media screen and (max-width: 610px) {
     html {
         font-size: 14px;
     }
