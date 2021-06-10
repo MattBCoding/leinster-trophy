@@ -49,7 +49,7 @@ Once the overall structure for each page had been established, I moved into Figm
 * [Colour card](https://github.com/MattBCoding/leinster-trophy/blob/master/assets/wireframes/figma-color.png)
 
 ## Features
-In this section go over the different parts of the project, and describe each in a sentance or so. Explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things. 
+ 
 ### Common Features 
 * Navigation Bar
 
