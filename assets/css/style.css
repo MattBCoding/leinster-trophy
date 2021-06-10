@@ -850,8 +850,20 @@ input {
 
 .short-content {
     flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
     max-width: calc(100% - 3.5rem);
-    width: 500px;
+}
+
+.short-content > h2 {
+    font-size: 1.875em;
+    text-align: center;
+}
+
+.short-content > p {
+    max-width: 100%;
+    width: 800px;
 }
 
 
