@@ -20,7 +20,7 @@ The trophy is the crown jewel of the Leinster Motor Club, who currently have a w
 * As the organisation we want to be able to market directly to interested parties in a cost effective manner.
 
 ### Opportunities
-arising from user stories Insert oppotunities table, opportunities/Importance/Viability/Feasibility
+Arising from user stories 
 |Opportunities | Importance | Viability / Feasibility
 |-----|:------:|:-----:|
 |**Promote the next race** | 5 | 5 |
