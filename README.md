@@ -5,6 +5,7 @@ Leinster Trophy is a site all about the history of the Leinster Trophy and the p
 ![Responsive Screenshot Mockup](/assets/media/ss-homepage-top.png)
 
 [View the live website on GitHub Pages](https://mattbcoding.github.io/leinster-trophy/index.html)
+Please note: To open any links in this document in a new browser tab, please press CTRL + Click.
 
 ## UX
 ### Leinster Motor Club:
